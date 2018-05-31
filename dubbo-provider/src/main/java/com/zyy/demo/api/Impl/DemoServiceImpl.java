@@ -19,7 +19,7 @@ public class DemoServiceImpl implements DemoService {
     public static void main(String[] args) throws IOException {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:dubbo-provider.xml");
         context.start();
-        logger.debug("dubbo-provider: {}","注册服务启动----------->");
+        logger.debug("dubbo-provider: {}","注册服务!");
         System.in.read();//阻塞
     }
 }
