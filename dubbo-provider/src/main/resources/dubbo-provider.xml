@@ -16,7 +16,7 @@
 	-->
 	<dubbo:registry address="zookeeper://127.0.0.1:2181" subscribe="false" check="false"></dubbo:registry>
 	<!-- 协议在29999端口暴露服务 -->
-	<dubbo:protocol name="dubbo" port="29999"></dubbo:protocol>
+	<dubbo:protocol name="dubbo" port="39999"></dubbo:protocol>
 	<!-- 需要注册的服务接口 -->
 	<dubbo:service interface="com.zyy.demo.api.DemoService" ref="demoService"></dubbo:service>
 	<!-- 接口实现类 -->
